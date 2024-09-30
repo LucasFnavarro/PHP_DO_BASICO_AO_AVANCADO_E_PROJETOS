@@ -1,0 +1,22 @@
+{
+    "name": "lucas/aula_01",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Lucas Scquiavon",
+            "email": "navarrolucas0009@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\Controllers\\" : ["app/controllers"],
+            "app\\System\\" : ["app/system"]
+        },
+        "files": [
+            "app/config.php",
+            "app/helpers/functions.php"
+        ]
+    }
+}
+    

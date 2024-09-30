@@ -1,0 +1,23 @@
+O que é uma API?
+
+=> Application Programming Interface
+
+=> Uma API é um conjunto de rotinas, protocolos e ferramentas que permitem que dois
+programas se comuniquem entre si.
+
+=> As APIs são usadas para compartilhar dados, integrar aplicações e automatizar tarefas.
+
+=> Existem muitos tipos diferentes de APIs, cada uma com as suas próprias caracteristicas e 
+funcionalidades. (APIs Rest, APIs RestFull, APIs SOAP, APIs GraphQL, APIs XML-RPC, ect).
+
+=> As APIs são uma ferramenta poderosa que pode ser usada para uma variedade de propósitos.
+
+// ==================================================
+
+Cliente faz requisição (GET, PUT, POST ou DELETE) -------> REST API -------> Database 
+
+Database -------> REST API (devolve em JSON/XML) -------> Cliente que fez a requisição
+
+Estruturas de pasta:
+Public -> tudo que será visivel
+api_core -> tudo de config. / respostas / dados da api
