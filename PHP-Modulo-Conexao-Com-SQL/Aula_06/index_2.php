@@ -8,6 +8,7 @@ $password = '97191304';
 
 $ligacao = new PDO("mysql:host=$host;dbname=$database;charset=utf8", $username, $password);
 
+// evitando sql injection
 $parametros = [
     ':u' => $_POST['username'],
     ':p' => $_POST['passwrd']
@@ -16,7 +17,6 @@ $parametros = [
 $comando = $ligacao->prepare("SELECT * FROM usuarios WHERE username = :u AND passwrd = :p");
 $comando->execute($parametros);
 $resultado = $comando->fetchAll(PDO::FETCH_OBJ);
-
 
 echo "<pre>";
 print_r($resultado);
