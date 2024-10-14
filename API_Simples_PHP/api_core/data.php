@@ -28,9 +28,5 @@ return [
     [
         'name' => 'Bruna',
         'email' => 'bruna@gmail.com'
-    ],
-    [
-        'name' => 'Julia',
-        'email' => 'julia@live.com'
     ]
 ];
