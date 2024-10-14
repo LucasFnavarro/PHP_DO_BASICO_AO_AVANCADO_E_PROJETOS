@@ -15,5 +15,5 @@ $ligacao = null;
 /*
 PDO::ERRMODE_SILENT = Não apresenta erros
 PDO::ERRMODE_WARNING = Apresenta avisos.
-PDO::ERRMODE_EXCEPTION = Dispara excepções que podem ser captadas no catch
+PDO::ERRMODE_EXCEPTION = Dispara exceções que podem ser captadas no catch
 */
