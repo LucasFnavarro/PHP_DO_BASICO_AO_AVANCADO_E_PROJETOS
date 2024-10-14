@@ -13,7 +13,7 @@ try {
     // Vai pegar todos os resultados da tabela produtos de uma só vez.
     $resultados = $ligacao->query("SELECT * FROM clientes LIMIT 20")->fetchAll(PDO::FETCH_OBJ);
 } catch (PDOException) {
-    $erro =  "Erro, não foi encontrado nada na tabela";
+    $erro =  "Erro, não foi encontrado nenhum resultado na tabela";
 }
 ?>
 
